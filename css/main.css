@@ -1,0 +1,55 @@
+h1 {
+  color:black;
+}
+body {
+  text-align: center;
+}
+
+.box {
+  display:inline-block;;
+  height: 100px;
+  width: 46%;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+@media (max-width: 600px) {
+
+  .yellow {
+    display: none;
+  }
+
+  .red {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grey{
+    display: none;
+  }
+  .yellow{
+    display:none;
+  }
+  .red{
+    display:none;
+  }
+  .lightblue{
+    display:none;
+  }
+
+}
